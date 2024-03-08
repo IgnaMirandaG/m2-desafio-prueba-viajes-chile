@@ -1,7 +1,11 @@
+/* APLICAR FUENTE EXTERNA GOOCLE FONT  */
+
 body {
     background-color: black;
     color: white;
+    font-family: "Roboto", sans-serif;
 }
+
 
 /* ESTILOS FOOTER  */
 footer i {
@@ -14,7 +18,7 @@ footer a {
 /* FIN ESTILOS FOOTER  */
 
 
-/* INICIO ESTILOS TOOLTIPS  */
+/* INICIO ESTILOS TOOLTIPS A CARDS*/
 .custom-tooltip1{
     --bs-tooltip-bg: rgba(137, 43, 226, 0.5);
     --bs-tooltip-color: white;
@@ -34,7 +38,7 @@ footer a {
     --bs-tooltip-bg: rgb(8, 216, 102, 0.5);
     --bs-tooltip-color:  white;
 }
-/* FIN ESTILOS TOOLTIPS  */
+/* FIN ESTILOS TOOLTIPS  A CARDS*/
 
 /* ESTABILIDAD VISUAL DEL SITIO WEB DURANTE LA CARGA */
 .card img, #carrusel img{
