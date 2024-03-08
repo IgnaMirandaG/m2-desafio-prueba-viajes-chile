@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* ESTILOS FOOTER  */
+footer i {
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+/* FIN ESTILOS FOOTER  */
+
+
+/* INICIO ESTILOS TOOLTIPS  */
+.custom-tooltip1{
+    --bs-tooltip-bg: rgba(137, 43, 226, 0.5);
+    --bs-tooltip-color: white;
+}
+
+.custom-tooltip2{
+    --bs-tooltip-bg: rgba(255, 166, 0, 0.5);
+    --bs-tooltip-color:  white;
+}
+
+.custom-tooltip3{
+    --bs-tooltip-bg: rgb(2, 110, 250, 0.5);
+    --bs-tooltip-color: white;
+}
+
+.custom-tooltip4{
+    --bs-tooltip-bg: rgb(8, 216, 102, 0.5);
+    --bs-tooltip-color:  white;
+}
+/* FIN ESTILOS TOOLTIPS  */
+
+/* ESTABILIDAD VISUAL DEL SITIO WEB DURANTE LA CARGA */
+.card img, #carrusel img{
+    aspect-ratio: 3/2;
+}
